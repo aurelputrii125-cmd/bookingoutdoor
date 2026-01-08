@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Alat Outdoor | Four.Tektokers</title>
+
+  <!-- Jika punya CSS -->
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+
+  <div class="container">
+    <h1>Four.Tektokers</h1>
+    <h3>Booking Alat Outdoor</h3>
+
+    <label for="nama">Nama Peminjam</label>
+    <input type="text" id="nama" placeholder="Masukkan nama">
+
+    <label for="alat">Pilih Alat</label>
+    <select id="alat">
+      <option value="">-- Pilih Alat --</option>
+      <option value="Tenda">Tenda</option>
+      <option value="Carrier">Carrier</option>
+      <option value="Hydropack">Hydropack</option>
+      <option value="Sleeping Bag">Sleeping Bag</option>
+    </select>
+
+    <label for="tanggal">Tanggal Booking</label>
+    <input type="date" id="tanggal">
+
+    <button type="button" onclick="booking()">Booking Sekarang</button>
+
+    <div id="hasil"></div>
+    <img src="3f.jpg" alt="">
+  </div>
+
+  <!-- Script dipanggil di bawah -->
+  <script src="script.js"></script>
+</body>
+</html>

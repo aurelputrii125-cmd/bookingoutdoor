@@ -1,0 +1,56 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  background-color: #a8bab9;
+  background-image: url(paklekhapit.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 350px;
+  margin: 80px auto;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  border: 2px solid;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+ 
+
+h1 {
+  text-align: center;
+  color: #14191b;
+}
+
+h3 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select {
+  width: 95%;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  
+}
+select {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #061318;
+  color: rgb(225, 232, 236);
+  border: none;
+  cursor: pointer;
+  
+}
